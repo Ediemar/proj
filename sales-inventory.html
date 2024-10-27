@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="inventory.css">
+  <title>Document</title>
+  <style>
+    
+  </style>
+</head>
+<body>
+  <div class="side-bar">
+    <img src="lugu.png" class="logo">
+    <div class="butt">
+    <button class="selector" style="background-color: red ;"  >
+      <span class="material-symbols--dashboard" onclick="showContent('dashboard')"></span>
+      <h1>Dashboard</h1>
+    </button>
+    <button class="selector"  onclick="window.location.href='monitory-inventiory.php'" >
+      <span class="fluent-mdl2--product-variant"onclick="showContent('product')"></span>
+      <h1>Products</h1>
+    </button>
+</div>
+<div class="top-bar">
+<span class="mingcute--notification-fill"></span>
+   <div class="profile">
+       <img src="download.png" > 
+   </div class="content">
+<label class="username">ronnni</label>
+<button class="option">
+<span class="gridicons--dropdown"></span>
+</button>
+</div>
+<div>
+<div class="Dashboard" id="dashboard">
+  <h2 class="title">Dashboard</h2>
+  <button class="date"><span class="gridicons--dropdown"></span></button>
+  <div class="tsale">
+  <span class="icon-park--sales-report"></span>
+  <label class="total-sales">$328469</label>
+  <label class="total">Total Sales</label>
+  </div>
+
+   <div class="Product-Cost">
+   <span class="emojione--money-bag"></span>
+   <label class="total-sales">$2353</label>
+   <label class="total">Total Cost</label>
+   </div>
+   <div class="Onhand">
+   <span class="mdi--hand-coin"></span>
+   <label class="total-sales">$2353</label>
+   <label class="total">Total Cost</label>
+   </div>
+   <div class="product-sold">
+   <span class="tabler--box"></span>
+   <label class="total-sales">$2353</label>
+   <label class="total">Total Cost</label>
+   </div>
+
+
+  <div class="revenue">
+  <label class="rev">Revenue VS Costs</label>
+  </div>
+   <div class="summary">
+  <label class="rev">Purchase Summary</label>
+  </div>
+  <div class="sold">
+  <label class="rev">Number Of Unit Sold</label>
+  </div>
+ 
+  <div class="sales-order">
+  <label class="rev">Purchase Order</label>
+  <table class="purchased">
+      <tr>
+        <th>Order ID</th>
+        <th>Amount</th>
+      </tr>
+       <tr>
+        <td>p1</td>
+        <td>2434</td>
+       </tr>
+    </table>
+  </div>
+  <div class="purchase-order">
+  <label class="rev">Order Sales</label>
+  <table class="purchased">
+      <tr>
+        <th>ORDER ID</th>
+        <th>Customers</th>
+        <th>Date</th>
+        <th>Status</th>
+        <th>Order Total</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>monica</td>
+        <td>04/23/32</td>
+        <td>Cancel</td>
+        <td>$5023</td>
+      </tr>
+  </table>
+  </div>
+</div></div>
+
+</div>
+<script src="inventory.js"></script>
+</body>
+</html>
